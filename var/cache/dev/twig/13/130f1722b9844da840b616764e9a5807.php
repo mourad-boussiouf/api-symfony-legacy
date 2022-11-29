@@ -133,6 +133,6 @@ class __TwigTemplate_81f7b261f15183fc8a1066d6f08e6de0 extends Template
 
 </body>
 </html>
-", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\bookshop-api\\vendor\\api-platform\\core\\src\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
+", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\api-symfony\\vendor\\api-platform\\core\\src\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
     }
 }

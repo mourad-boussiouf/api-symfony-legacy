@@ -164,6 +164,6 @@ class __TwigTemplate_09b09989afc73b4892af54581f925cf3 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\wamp64\\www\\bookshop-api\\templates\\base.html.twig");
+", "base.html.twig", "C:\\wamp64\\www\\api-symfony\\templates\\base.html.twig");
     }
 }
