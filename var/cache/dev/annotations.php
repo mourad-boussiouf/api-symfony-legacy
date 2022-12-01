@@ -106,6 +106,10 @@ return [[
 '[C]App%5CEntity%5CUsers%23getUpdatedAt' => 1,
 'App%5CEntity%5CUsers%23setUpdatedAt' => 0,
 '[C]App%5CEntity%5CUsers%23setUpdatedAt' => 1,
+'App%5CEntity%5CUsers%23getRank' => 0,
+'[C]App%5CEntity%5CUsers%23getRank' => 1,
+'App%5CEntity%5CUsers%23setRank' => 0,
+'[C]App%5CEntity%5CUsers%23setRank' => 1,
 'App%5CEntity%5CUsers%24id' => 0,
 '[C]App%5CEntity%5CUsers%24id' => 1,
 'App%5CEntity%5CUsers%24email' => 0,
@@ -120,6 +124,8 @@ return [[
 '[C]App%5CEntity%5CUsers%24createdAt' => 1,
 'App%5CEntity%5CUsers%24updatedAt' => 0,
 '[C]App%5CEntity%5CUsers%24updatedAt' => 1,
+'App%5CEntity%5CUsers%24rank' => 0,
+'[C]App%5CEntity%5CUsers%24rank' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
 '[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 0,
@@ -598,6 +604,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1669740153,
+1 => 1669893406,
 
 ]];
