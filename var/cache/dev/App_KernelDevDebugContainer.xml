@@ -251,7 +251,7 @@
     </parameter>
     <parameter key="api_platform.patch_formats" type="collection">
       <parameter key="json" type="collection">
-        <parameter>application/merge-patch+json</parameter>
+        <parameter>application/merge+patch+json</parameter>
       </parameter>
     </parameter>
     <parameter key="api_platform.error_formats" type="collection">
@@ -302,7 +302,6 @@
       <parameter key="extra_properties" type="collection"/>
     </parameter>
     <parameter key="api_platform.resource_class_directories" type="collection">
-      <parameter>C:\wamp64\www\api-symfony/src/ApiResource</parameter>
       <parameter>C:\wamp64\www\api-symfony/src/Entity</parameter>
     </parameter>
     <parameter key="api_platform.oauth.enabled">false</parameter>
@@ -353,6 +352,7 @@
       <tag name="controller.service_arguments"/>
       <tag name="routing.route_loader"/>
     </service>
+    <service id="App\DataPersister\UserDataPersister" class="App\DataPersister\UserDataPersister" autowire="true" autoconfigure="true"/>
     <service id="App\Repository\GroupesRepository" class="App\Repository\GroupesRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
